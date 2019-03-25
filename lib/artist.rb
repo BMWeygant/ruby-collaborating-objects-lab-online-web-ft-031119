@@ -13,5 +13,8 @@ self.songs << song
 song.artist = self
 end
 
+def save
+
+end
 
 end
