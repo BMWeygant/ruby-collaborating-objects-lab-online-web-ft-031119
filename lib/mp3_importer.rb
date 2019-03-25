@@ -7,7 +7,7 @@ end
 
 def files
 files = []
- Dir.new
+ Dir.new(self.path)
 end
 
 end
