@@ -14,7 +14,7 @@ song.artist = self
 end
 
 def save
-
+@@all += 1
 end
 
 end
