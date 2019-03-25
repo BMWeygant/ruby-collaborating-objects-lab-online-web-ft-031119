@@ -28,8 +28,9 @@ def self.find_or_create_by_name(name)
 end
 
 def self.create(name)
+  binding.pry
   self.new(name).tap do|artist|
-    binding.pry
+
   end
 end
 end
