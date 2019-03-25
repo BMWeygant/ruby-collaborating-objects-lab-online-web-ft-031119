@@ -6,7 +6,7 @@ attr_accessor :name, :songs
 def initialize(name)
   @name = name
   @songs = []
-  self.save
+  save
 end
 
 def add_song(song)
