@@ -24,8 +24,9 @@ def self.all
 end
 
 def self.create(name)
-  binding.pry
-  self.new(name).tap do |artist|
+  self.new(name).tap do
+binding.pry
+    |artist|
 end
 end
 
