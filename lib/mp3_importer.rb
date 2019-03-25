@@ -6,7 +6,8 @@ def initialize(path)
 end
 
 def files
-@files ||= Dir.new
+files = []
+ Dir.new
 end
 
 end
