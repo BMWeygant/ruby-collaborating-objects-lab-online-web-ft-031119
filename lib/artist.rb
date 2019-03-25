@@ -21,7 +21,7 @@ def self.all
 @@all
 end
 
-def self.find
+def self.find_or_create_by_name
 
 end
 
