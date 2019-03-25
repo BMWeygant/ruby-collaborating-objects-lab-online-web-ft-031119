@@ -23,12 +23,13 @@ def self.all
 @@all
 end
 
-def self.find_or_create_by_name(name)
-
-end
-
 def self.create(name)
   binding.pry
 
 end
+
+def self.find_or_create_by_name(name)
+
+end
+
 end
