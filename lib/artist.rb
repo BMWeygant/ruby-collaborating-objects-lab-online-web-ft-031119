@@ -22,7 +22,7 @@ def self.all
 end
 
 def self.create(name)
-  self.new(name).tap binding.pry do |artist|
+  self.new(name).tap do |artist|
 end
 end
 
