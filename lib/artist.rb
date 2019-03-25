@@ -1,5 +1,3 @@
-require 'pry'
-
 class Artist
 attr_accessor :name, :songs
 
@@ -24,8 +22,10 @@ def self.all
 end
 
 def self.create(name)
-  self.new(name).each { |artist| artist.save }
+  self.new(name).tap { |artist| artist.save }
 end
+
+def self.find
 
 def self.find_or_create_by_name(name)
 
