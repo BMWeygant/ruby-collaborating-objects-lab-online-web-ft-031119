@@ -20,4 +20,9 @@ end
 def self.all
 @@all
 end
+
+def self.find
+
+end
+
 end
