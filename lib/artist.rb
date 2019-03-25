@@ -27,6 +27,7 @@ end
 
 def self.find(name)
 self.all.find do |artist|
+  binding.pry
 end
 end
 
