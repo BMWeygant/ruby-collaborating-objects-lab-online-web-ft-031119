@@ -14,7 +14,7 @@ song.artist = self
 end
 
 def save
-add_song(song)
+add_song
 self.songs += 1
 end
 
