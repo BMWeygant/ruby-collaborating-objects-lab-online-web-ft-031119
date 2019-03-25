@@ -24,7 +24,7 @@ def self.all
 end
 
 def self.create(name)
-  self.new(name).tap { |artist|binding.pry }
+  self.new(name).each { |artist|  }
 end
 
 def self.find_or_create_by_name(name)
