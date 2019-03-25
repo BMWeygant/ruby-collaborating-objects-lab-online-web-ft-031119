@@ -24,7 +24,7 @@ def self.all
 end
 
 def self.create(name)
-  self.new(name)
+  self.new(name).tap
   binding.pry
 
 end
