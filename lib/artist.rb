@@ -28,6 +28,7 @@ end
 def self.find(name)
 self.all.find do |artist|
 end
+end
 
 def self.find_or_create_by_name(name)
 
