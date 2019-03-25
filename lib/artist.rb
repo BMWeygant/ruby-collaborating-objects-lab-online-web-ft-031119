@@ -25,7 +25,6 @@ end
 
 def self.create(name)
   self.new(name).each do |artist|
-    binding.pry
 end
 end
 
