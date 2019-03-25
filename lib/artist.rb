@@ -15,7 +15,7 @@ end
 
 def save
 add_song(song)
-slf.songs += 1
+self.songs += 1
 end
 
 
