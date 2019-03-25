@@ -15,7 +15,7 @@ song.artist = self
 end
 
 def save
-@@all += 1
+@@all << self
 end
 
 end
