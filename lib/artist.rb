@@ -24,7 +24,7 @@ def self.all
 end
 
 def self.create(name)
-  self.new(name).each { |artist| artis.save }
+  self.new(name).each { |artist| artist.save }
 end
 
 def self.find_or_create_by_name(name)
