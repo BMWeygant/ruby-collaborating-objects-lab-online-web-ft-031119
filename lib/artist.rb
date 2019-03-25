@@ -25,7 +25,7 @@ def self.create(name)
   self.new(name).tap { |artist| artist.save }
 end
 
-def self.find
+def self.find(name)
 
 def self.find_or_create_by_name(name)
 
