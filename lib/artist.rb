@@ -11,6 +11,7 @@ end
 def add_song(song)
   song = Song.new
 @songs << song
+song
 end
 
 
