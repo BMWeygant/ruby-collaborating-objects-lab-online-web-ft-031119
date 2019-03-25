@@ -6,7 +6,7 @@ def initialize(name, artist=nil)
 end
 
 def self.new_by_filename(filename)
-song = Song.new.split(' - '')
+song = Song.new(filename.split(' - '')
 end
 
 end
