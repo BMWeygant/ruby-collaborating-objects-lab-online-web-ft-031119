@@ -24,6 +24,7 @@ def self.all
 end
 
 def self.create(name)
+  self.new(name)
   binding.pry
 
 end
