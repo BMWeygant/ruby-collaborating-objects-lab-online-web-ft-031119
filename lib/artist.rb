@@ -29,8 +29,6 @@ end
 
 def self.create(name)
   binding.pry
-  self.new(name).tap do|artist|
 
-  end
 end
 end
